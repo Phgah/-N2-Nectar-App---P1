@@ -1,0 +1,42 @@
+name: nectar_app
+description: A grocery delivery mobile application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Country Code Picker for selecting phone country codes
+  country_code_picker: ^3.0.0
+  
+  # Google Sign-In for authentication with Google accounts
+  google_sign_in: ^6.1.0
+  
+  # Facebook Authentication for logging in via Facebook
+  flutter_facebook_auth: ^5.0.0
+  
+  # Pin Code Text Field for 4-digit verification code
+  pin_code_fields: ^7.4.0
+  
+  # Other default Flutter dependencies
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add assets directory for images
+  assets:
+    - assets/your_image.png
+    - assets/nectar_logo.png
+    - assets/onboarding_background.png
+    - assets/google_logo.png
+    - assets/facebook_logo.png
